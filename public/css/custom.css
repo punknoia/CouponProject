@@ -1,0 +1,41 @@
+/* @override http://localhost:3000/css/custom.css */
+
+/* @override http://localhost:3000/css/custom.css */
+
+div.floatright {
+	float: right;
+}
+
+html {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#content {
+	clear: both;
+	min-height: 400px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#content p {
+	padding-bottom: 10px;
+}
+
+div.floatright.nav ul li {
+	float: left;
+	padding-left: 15px;
+}
+
+div#header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+body {
+	font: 16px/1.4 'Droid Serif', serif;
+}
