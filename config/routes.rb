@@ -1,4 +1,6 @@
 Hipcoupon::Application.routes.draw do
+  resources :coupons
+
   resources :articles
 
   # The priority is based upon order of creation:
