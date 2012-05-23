@@ -1,5 +1,5 @@
 Hipcoupon::Application.routes.draw do
-  resources :coupons
+  resources :merchants
 
   resources :articles
 

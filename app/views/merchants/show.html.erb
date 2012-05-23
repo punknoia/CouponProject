@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @merchant.title %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @merchant.url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @merchant.description %>
+</p>
+
+<p>
+  <b>Affurl:</b>
+  <%= @merchant.affurl %>
+</p>
+
+<p>
+  <b>Imageurl:</b>
+  <%= @merchant.imageurl %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @merchant.category %>
+</p>
+
+
+<%= link_to 'Edit', edit_merchant_path(@merchant) %> |
+<%= link_to 'Back', merchants_path %>
