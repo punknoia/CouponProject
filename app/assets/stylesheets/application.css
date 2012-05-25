@@ -1,7 +1,101 @@
+/* @override http://localhost:3000/assets/application.css?body=1 */
+
+/* @override http://localhost:3000/assets/application.css?body=1 */
+
 /*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
- *= require_self
- *= require_tree . 
 */
+
+/* @override http://localhost:3000/css/custom.css */
+
+/* @override http://localhost:3000/css/custom.css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div.floatright {
+	float: right;
+}
+
+html {
+	background-image: url(/images/vintage_speckles.png);
+}
+
+div#content {
+	clear: both;
+	min-height: 400px;
+}
+
+h1 {
+	font: bold 30px "Droid Serif";
+}
+
+#content p {
+	padding-bottom: 10px;
+}
+
+div.floatright.nav ul li {
+	float: left;
+	padding-left: 15px;
+}
+
+div#header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+body {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	font: 16px/1.4 'Droidm Serif', serif;
+	background-color: transparent;
+}

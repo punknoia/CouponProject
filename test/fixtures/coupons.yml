@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
+  code: MyString
+  description: MyString
   title: MyString
-  url: MyString
-  description: MyText
-  affurl: MyString
-  imageurl: MyString
-  category: MyString
+  rating: 1.5
+  merchant: MyString
+  expiration: 2012-05-23
 
 two:
+  code: MyString
+  description: MyString
   title: MyString
-  url: MyString
-  description: MyText
-  affurl: MyString
-  imageurl: MyString
-  category: MyString
+  rating: 1.5
+  merchant: MyString
+  expiration: 2012-05-23
