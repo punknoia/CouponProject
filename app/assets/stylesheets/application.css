@@ -4,6 +4,10 @@
 
 /* @override http://localhost:3000/assets/application.css?body=1 */
 
+/* @override http://localhost:3000/assets/application.css?body=1 */
+
+/* @override http://localhost:3000/assets/application.css?body=1 */
+
 /*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
@@ -17,6 +21,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+
 
 
 
@@ -45,9 +51,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -85,9 +88,10 @@ div#content {
 	margin-left: auto;
 }
 
-#header h1 {
+#header h1 a {
 	color: #fff;
-	font: 32px 'Oswald', sans-serif;
+	font: normal 36px 'Lobster', serif;
+	text-decoration: none;
 }
 
 #header .nav a {
@@ -127,3 +131,14 @@ body {
 	font: 16px/1.4;
 	background-color: transparent;
 }
+
+h2 {
+	text-transform: none;
+	font: 30px/1.4em Georgia, "Times New Roman", Times, serif;
+}
+
+div.indiecoupon {
+	background-color: #fff;
+}
+
+

@@ -6,6 +6,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<!-- Google Analytics Start -->
 	<script type="text/javascript">
 
@@ -28,13 +29,13 @@
 		<div class='eighthundredpixels'>
 		<div class='floatright nav'>
 			<ul>
-				<!--
-				<li><a href='/about.html'>about</a></li>
-				-->
+				<li><%= link_to "Coupons", coupons_path %></li>
+				<li><%= link_to "Merchants", merchants_path %></li>
+				<li><%= link_to "Blog", articles_path %></li>
 				<li><a href='/contact.html'>contact</a></li>
 			</ul>
 		</div>
-		<h1>HipCoupon Beta</h1>
+		<h1><a href='/'>HipCoupon</a></h1>
 		</div><!-- end 800pixels -->
 	</div><!-- header -->
 	
