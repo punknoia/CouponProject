@@ -1,32 +1,31 @@
-<h1>Listing coupons</h1>
-
-<table>
-  <tr>
-    <th>Code</th>
-    <th>Description</th>
-    <th>Title</th>
-    <th>Rating</th>
-    <th>Merchant</th>
-    <th>Expiration</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<h2>Hippest Coupons:</h2>
 
 <% @coupons.each do |coupon| %>
-  <tr>
-    <td><%= coupon.code %></td>
-    <td><%= coupon.description %></td>
-    <td><%= coupon.title %></td>
-    <td><%= coupon.rating %></td>
-    <td><%= coupon.merchant %></td>
-    <td><%= coupon.expiration %></td>
-    <td><%= link_to 'Show', coupon %></td>
-    <td><%= link_to 'Edit', edit_coupon_path(coupon) %></td>
-    <td><%= link_to 'Destroy', coupon, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+	<div class='indiecoupon'>
+		<div class='code'>
+			<%= coupon.code %>
+		</div>
+		<div class='title'>
+			<%= coupon.title %> from <%= coupon.merchant %>
+		</div>
+		<div class='description'>
+			<%= coupon.description %>
+		</div>
+		<div class='rating'>
+			<%= coupon.rating %>
+		</div>
+		<div class='expires'>
+			<%= coupon.expiration %>
+		</div>
+		
+		<h4>Admin Stuff</h4>
+		<%= link_to 'Show', coupon %></br>
+	    <%= link_to 'Edit', edit_coupon_path(coupon) %></br>
+	    <%= link_to 'Destroy', coupon, :confirm => 'Are you sure?', :method => :delete %></br>
+	</div><!-- end indie coupon -->
+
 <% end %>
-</table>
+
 
 <br />
 
